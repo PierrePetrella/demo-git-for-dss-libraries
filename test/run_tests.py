@@ -1,3 +1,4 @@
 import pytest
 
-retcode = pytest.main()
+def run_tests():
+    return pytest.main()
